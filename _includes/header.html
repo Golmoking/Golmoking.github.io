@@ -1,12 +1,34 @@
 <header class="site_header">
   <div class="top_nav">
+<!--
+    <nav class="menu">
+      <ul>
+        {% for category in site.data.navigation.main %}
+  			<li>
+  				<p>{{ category.title }}</p>
+  				<ul>
+  					{% for subcate in category.categories %}
+  					<li>
+  						<a href="{{ subcate.url }}">{{ subcate.title }}</a>
+  					</li>
+  					{% endfor %}
+  				</ul>
+  			</li>
+			{% endfor %}
+      </ul>
+    </nav>
+-->
     {% if site.site_profiles.title %}
     <h1>
+      <a href="{{ site.baseurl }}/">
       {{ site.site_profiles.title }}
+      </a>
     </h1>
     {% endif %}
+
   </div>
   <div class="main_image">
-
+    <h1>Main Slogan</h1>
+    <h2>Description</h2>
   </div>
 </header>

@@ -22,9 +22,34 @@ html, body {
     margin: 0;
     padding-top: 8px;
     padding-bottom: 8px;
+
   }
 
-  .main_image {
+  .menu li ul {
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 200px;
+    z-index: 200;
+    }
 
+  .menu li:hover ul {
+    display: block;
+  }
+
+
+  .main_image {
+    margin-top: 200px;
+    text-align: center;
+    vertical-align: middle;
+    //line-height: 32px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
