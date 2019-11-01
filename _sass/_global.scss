@@ -1,11 +1,14 @@
+
+
 html, body {
+  font-family: 'Nanum Gothic', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .site_header {
   width: 100%;
-  height: 560px;
+  height: 100%;
   background-color: #2F3344;
   color: #fff;
   text-align: center;
@@ -14,8 +17,8 @@ html, body {
 
   .top_nav {
     width: 100%;
-    height: 56px;
-    background-color: $main_color;
+    height: 48px;
+    background-color: $topnav_color;
     color: #fff;
     text-align: center;
     line-height: 8px;
@@ -52,4 +55,26 @@ html, body {
     color: #fff;
     text-decoration: none;
   }
+}
+
+.site_section {
+}
+
+.banner {
+  background-image: url(../img/Banner_main.png);
+  background-size: cover;
+
+  position: absolute;
+
+  width: 100%;
+  height: 1024px;
+
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 32px;
+  color: #ffffff;
 }
