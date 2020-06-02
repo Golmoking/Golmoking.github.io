@@ -1,9 +1,0 @@
-main:
-  - title: "Links"
-    categories:
-      - title: "Github"
-        url: https://github.com/Golmoking
-      - title: "Notefolio"
-        url: http://notefolio.net/golmoking
-      - title: "Tistory(Webtoon only)"
-        url: https://golmoking.tistory.com/
