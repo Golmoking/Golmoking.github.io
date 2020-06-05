@@ -8,7 +8,7 @@
 # Site settings
 title:       GolmokDaeBBang
 email:       'bluedulgi1104@gmail.com'
-description: ''
+description: 'Test'
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         'https://golmoking.github.io/' # The base hostname & protocol for your site
 # twitter:     ''
