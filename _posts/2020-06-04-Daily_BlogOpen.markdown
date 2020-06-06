@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 시작합니다
-tags: [Daily]
+tags: [daily]
 permalink: /post/1
 ---
 

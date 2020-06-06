@@ -1,17 +1,22 @@
 ---
 layout: default
+title: Tags
 ---
 
 <div class='o-wrapper'>
 
   <div class='o-grid'>
     <div class='o-grid__col'>
-      <h4>{{ page.tag }}</h4>
+      {%for data_tag in site.data.tags %}
+        {% if data_tag.slug == page.tag%}
+          <h4>{{ data_tag.name }}</h4>
+          {% endif %}
+      {% endfor %}
     </div>
   </div>
 
   <div class='o-grid'>
-    {% for post in page.posts %}
+    {% for post in site.tags[page.tag] %}
       {% include post-card.liquid %}
     {% endfor %}
   </div>

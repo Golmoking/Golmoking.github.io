@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CG에서의 카메라
-tags: [Study, TA, Camera]
+tags: [study, ta, camera]
 permalink: /post/2
 ---
 <!--수식 입력 활성화-->

@@ -25,7 +25,11 @@ layout: default
 
         <div class='c-tags'>
           {% for tag in page.tags %}
-            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
+            {% for data_tag in site.data.tags %}
+              {% if data_tag.slug == tag %}
+              <a href='{{ site.baseurl }}/tags/{{ data_tag.slug }}'>{{ data_tag.name }}</a>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
         </div>
 
