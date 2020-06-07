@@ -9,7 +9,7 @@ permalink: /post/2
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-[CG에서의 카메라 - CG카메라의 구조](http://localhost:4000/post/3)
+[CG에서의 카메라 - CG카메라의 구조](http://golmoking.github.io/post/3)
 
 ## 실제 카메라의 구조 
 실제 카메라는 렌즈, 조리개, 셔터, 필름으로 구성돼 있다.   

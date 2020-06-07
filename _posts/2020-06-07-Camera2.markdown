@@ -9,7 +9,7 @@ permalink: /post/3
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
-[CG에서의 카메라 - 실제 카메라의 구조](http://localhost:4000/post/2)
+[CG에서의 카메라 - 실제 카메라의 구조](http://golmoking.github.io/post/2)
 
 
 ## CG카메라
