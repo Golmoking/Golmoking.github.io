@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CG에서의 카메라
+title: CG에서의 카메라 - 실제 카메라의 구조
 tags: [study, ta, camera]
 permalink: /post/2
 ---
@@ -9,10 +9,12 @@ permalink: /post/2
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 </script>
 
+[CG에서의 카메라 - CG카메라의 구조](http://localhost:4000/post/3)
 
-## 실제 카메라의 구조
-- - - 
+## 실제 카메라의 구조 
 실제 카메라는 렌즈, 조리개, 셔터, 필름으로 구성돼 있다.   
+
+- - -
 
 ### 렌즈
 
@@ -38,6 +40,8 @@ $$\frac{1}{a} + \frac{1}{b} = \frac{1}{f}$$
 초점 거리가 길 때 : 먼 물체를 크게 찍지만, 범위가 좁음
 초점 거리가 짧을 때 : 먼 물체는 작게 찍지만, 넓은 범위를 촬영할 수 있음   
 
+- - -
+
 ### 화각(Angle of View)
 화각은 카메라가 담을 수 있는 범위로서, 각도에 따라 보이는 범위가 다르다.
 
@@ -48,6 +52,8 @@ $$\theta = 2 \times arctan(\frac{L}{2f})$$
 
 초점거리를 늘리면 화각이 줄어들어 먼 물체를 크게 볼 수 있고,   
 반대로 줄이면 화각이 늘어나 먼 거리도 넓게 볼 수 있게 된다.
+
+- - -
 
 ### 셔터
 셔터는 빛이 들어오는 시간의 길이를 조절하는 부품이다.   
@@ -69,6 +75,8 @@ $$\theta = 2 \times arctan(\frac{L}{2f})$$
 셔터 각도를 이용한 빛의 노출 시간을 계산하는 식은 다음과 같다.   
 
 $$L = \frac{1}{F} \times \frac{A}{360}$$
+
+- - -
 
 ### 조리개
 조리개(Aperture)는 입구를 좁혀 들어오는 빛의 양을 조절하는 부분이다.   
